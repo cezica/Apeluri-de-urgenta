@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Fisiere">
+      <UniqueIdentifier>{4a5f762e-2109-456d-96fa-665191961454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Fisiere utilizatori">
+      <UniqueIdentifier>{a8ec9fb6-9515-47fe-9daf-efce70702a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Fisiere dispeceri">
+      <UniqueIdentifier>{dca15f03-d751-4d2d-b0c6-70534c97f4ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Conexiune.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fisiere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Exceptie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Înregistrare.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Logare.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Apel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Istoric_Apel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ÎnregistrareDispecer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Conexiune.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fisiere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IExceptie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Înregistrare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Logare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Apel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Istoric_Apel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ÎnregistrareDispecer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Username+parola.txt.txt">
+      <Filter>Resource Files\Fisiere</Filter>
+    </Text>
+    <Text Include="Înregistrari_Utilizatori.txt">
+      <Filter>Resource Files\Fisiere</Filter>
+    </Text>
+    <Text Include="Istoric apeluri.txt">
+      <Filter>Resource Files\Fisiere</Filter>
+    </Text>
+    <Text Include="ana_otilia.txt">
+      <Filter>Resource Files\Fisiere utilizatori</Filter>
+    </Text>
+    <Text Include="Înregistrari_Dispeceri.txt">
+      <Filter>Resource Files\Fisiere</Filter>
+    </Text>
+    <Text Include="elena123.txt">
+      <Filter>Resource Files\Fisiere utilizatori</Filter>
+    </Text>
+    <Text Include="dispecer2.txt">
+      <Filter>Resource Files\Fisiere dispeceri</Filter>
+    </Text>
+    <Text Include="dispecer1.txt">
+      <Filter>Resource Files\Fisiere dispeceri</Filter>
+    </Text>
+    <Text Include="Lista in astepare inregistari.txt">
+      <Filter>Resource Files\Fisiere</Filter>
+    </Text>
+    <Text Include="dispecer3.txt">
+      <Filter>Resource Files\Fisiere dispeceri</Filter>
+    </Text>
+    <Text Include="Apeluri in asteptare.txt">
+      <Filter>Resource Files\Fisiere</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
