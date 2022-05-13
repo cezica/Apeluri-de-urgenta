@@ -23,7 +23,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>PrimaPag</string>
+   <string>Apeluri de urgenta</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="minimumSize">
@@ -47,7 +47,7 @@
      </font>
     </property>
     <property name="currentIndex">
-     <number>6</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="p1_logare">
      <widget class="QLineEdit" name="username">
@@ -128,6 +128,9 @@
         <height>41</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background: rgb(183, 227, 255)</string>
+      </property>
       <property name="text">
        <string>Autentificare</string>
       </property>
@@ -164,6 +167,9 @@
       <property name="cursor">
        <cursorShape>PointingHandCursor</cursorShape>
       </property>
+      <property name="styleSheet">
+       <string notr="true">color: green</string>
+      </property>
       <property name="text">
        <string>Inregistraza-te!</string>
       </property>
@@ -189,6 +195,9 @@
       </property>
       <property name="cursor">
        <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: green</string>
       </property>
       <property name="text">
        <string>Mi-am uitat parola!</string>
@@ -227,6 +236,9 @@
         <width>181</width>
         <height>41</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: rgb(235, 176, 255)</string>
       </property>
       <property name="text">
        <string>Inapoi la autentificare</string>
@@ -284,6 +296,9 @@
         <width>141</width>
         <height>31</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: rgb(255, 249, 180)</string>
       </property>
       <property name="text">
        <string>Trimite cerere</string>
@@ -467,6 +482,9 @@
         <height>29</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background: rgb(187, 255, 144)</string>
+      </property>
       <property name="text">
        <string>Inregistrare</string>
       </property>
@@ -499,7 +517,7 @@
        <string/>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="pag_client">
        <attribute name="title">
@@ -519,6 +537,9 @@
           <pointsize>11</pointsize>
          </font>
         </property>
+        <property name="styleSheet">
+         <string notr="true">background: red</string>
+        </property>
         <property name="text">
          <string>112</string>
         </property>
@@ -536,6 +557,10 @@
          <font>
           <pointsize>11</pointsize>
          </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: white;
+border-color: rgb(255, 170, 0);</string>
         </property>
         <property name="text">
          <string>Politie</string>
@@ -555,6 +580,9 @@
           <pointsize>11</pointsize>
          </font>
         </property>
+        <property name="styleSheet">
+         <string notr="true">background: white</string>
+        </property>
         <property name="text">
          <string>Pompieri</string>
         </property>
@@ -572,6 +600,9 @@
          <font>
           <pointsize>11</pointsize>
          </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: white</string>
         </property>
         <property name="text">
          <string>Salvamont</string>
@@ -591,6 +622,10 @@
           <pointsize>11</pointsize>
          </font>
         </property>
+        <property name="styleSheet">
+         <string notr="true">background: white
+</string>
+        </property>
         <property name="text">
          <string>Ambulanta</string>
         </property>
@@ -609,6 +644,9 @@
           <pointsize>11</pointsize>
          </font>
         </property>
+        <property name="styleSheet">
+         <string notr="true">background: white</string>
+        </property>
         <property name="text">
          <string>Jandarmerie</string>
         </property>
@@ -626,6 +664,9 @@
          <font>
           <pointsize>11</pointsize>
          </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: white</string>
         </property>
         <property name="text">
          <string>Smurd</string>
@@ -664,111 +705,15 @@
           <height>451</height>
          </rect>
         </property>
-        <property name="rowCount">
-         <number>99</number>
+        <property name="editTriggers">
+         <set>QAbstractItemView::NoEditTriggers</set>
         </property>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
+        <property name="rowCount">
+         <number>0</number>
+        </property>
         <column>
          <property name="text">
-          <string>Data si ora</string>
+          <string>            Data si ora          </string>
          </property>
         </column>
         <column>
@@ -779,15 +724,31 @@
        </widget>
       </widget>
      </widget>
+     <widget class="QPushButton" name="delog_cl">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>10</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: red</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="p_dispecer">
      <widget class="QTabWidget" name="tab_dispecer">
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>0</y>
+        <y>10</y>
         <width>701</width>
-        <height>501</height>
+        <height>491</height>
        </rect>
       </property>
       <property name="currentIndex">
@@ -797,6 +758,33 @@
        <attribute name="title">
         <string>In asteptare</string>
        </attribute>
+       <widget class="QListWidget" name="lista_in_astp">
+        <property name="geometry">
+         <rect>
+          <x>15</x>
+          <y>11</y>
+          <width>391</width>
+          <height>411</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="add_descriere">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>180</y>
+          <width>93</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:  rgb(144, 207, 255);</string>
+        </property>
+        <property name="text">
+         <string>Adauga
+descriere</string>
+        </property>
+       </widget>
       </widget>
       <widget class="QWidget" name="istoric_dispecer">
        <attribute name="title">
@@ -811,119 +799,21 @@
           <height>461</height>
          </rect>
         </property>
-        <property name="rowCount">
-         <number>100</number>
+        <property name="sizeAdjustPolicy">
+         <enum>QAbstractScrollArea::AdjustToContents</enum>
         </property>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <row/>
-        <column>
-         <property name="text">
-          <string>Nume</string>
-         </property>
-        </column>
-        <column>
-         <property name="text">
-          <string>Prenume</string>
-         </property>
-        </column>
+        <property name="editTriggers">
+         <set>QAbstractItemView::NoEditTriggers</set>
+        </property>
+        <property name="rowCount">
+         <number>0</number>
+        </property>
+        <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="horizontalHeaderStretchLastSection">
+         <bool>true</bool>
+        </attribute>
         <column>
          <property name="text">
           <string>username</string>
@@ -939,18 +829,117 @@
           <string>Detalii adaugate</string>
          </property>
         </column>
-        <column>
-         <property name="text">
-          <string>Fisierul audio</string>
-         </property>
-        </column>
        </widget>
       </widget>
       <widget class="QWidget" name="utilizatori">
        <attribute name="title">
         <string>Utilizatori</string>
        </attribute>
+       <widget class="QListWidget" name="list_utilizatori">
+        <property name="geometry">
+         <rect>
+          <x>5</x>
+          <y>31</y>
+          <width>301</width>
+          <height>421</height>
+         </rect>
+        </property>
+        <property name="editTriggers">
+         <set>QAbstractItemView::NoEditTriggers</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="l_utilizatori">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>151</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>username utilizatori</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="but_inf">
+        <property name="geometry">
+         <rect>
+          <x>450</x>
+          <y>80</y>
+          <width>93</width>
+          <height>29</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:rgb(255, 157, 250)</string>
+        </property>
+        <property name="text">
+         <string>Informatii</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="but_stergere">
+        <property name="geometry">
+         <rect>
+          <x>430</x>
+          <y>300</y>
+          <width>131</width>
+          <height>29</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:rgb(184, 175, 255)</string>
+        </property>
+        <property name="text">
+         <string>Cerere stergere</string>
+        </property>
+       </widget>
+       <zorder>list_utilizatori</zorder>
+       <zorder>l_utilizatori</zorder>
+       <zorder>but_stergere</zorder>
+       <zorder>but_inf</zorder>
       </widget>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>10</y>
+        <width>63</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Dispecer</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="u_pag_dis">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>10</y>
+        <width>131</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>username</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="delog_disp">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>10</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: red</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
      </widget>
     </widget>
     <widget class="QWidget" name="p_administrator">
@@ -958,39 +947,360 @@
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>0</y>
-        <width>701</width>
+        <y>10</y>
+        <width>700</width>
         <height>501</height>
        </rect>
       </property>
       <property name="currentIndex">
-       <number>3</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="istoric_administrator">
        <attribute name="title">
         <string>Istoric apeluri</string>
        </attribute>
+       <widget class="QListWidget" name="lista_ist_apeluri_adm">
+        <property name="geometry">
+         <rect>
+          <x>15</x>
+          <y>21</y>
+          <width>401</width>
+          <height>431</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="b_inf_apel">
+        <property name="geometry">
+         <rect>
+          <x>490</x>
+          <y>80</y>
+          <width>141</width>
+          <height>29</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: rgb(181, 191, 255)</string>
+        </property>
+        <property name="text">
+         <string>Informatii apel</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="b_sterg_apel">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>200</y>
+          <width>111</width>
+          <height>29</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: rgb(255, 161, 142)</string>
+        </property>
+        <property name="text">
+         <string>Stergere apel</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="b_sterg_istoric">
+        <property name="geometry">
+         <rect>
+          <x>480</x>
+          <y>400</y>
+          <width>161</width>
+          <height>29</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: rgb(255, 161, 142)</string>
+        </property>
+        <property name="text">
+         <string>Sterge istoricul</string>
+        </property>
+       </widget>
       </widget>
       <widget class="QWidget" name="utilizatori_2">
        <attribute name="title">
         <string>Utilizatori</string>
        </attribute>
+       <widget class="QListWidget" name="list_utilizatori_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>301</width>
+          <height>421</height>
+         </rect>
+        </property>
+        <property name="editTriggers">
+         <set>QAbstractItemView::NoEditTriggers</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="l_utilizatori_2">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>20</y>
+          <width>151</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>username utilizatori</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="but_inf_2">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>80</y>
+          <width>141</width>
+          <height>29</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: rgb(181, 191, 255)</string>
+        </property>
+        <property name="text">
+         <string>Informatii utilizator</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="but_stergere_2">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>310</y>
+          <width>141</width>
+          <height>29</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: rgb(255, 161, 142)</string>
+        </property>
+        <property name="text">
+         <string>Sterge utilizator</string>
+        </property>
+       </widget>
       </widget>
       <widget class="QWidget" name="dispeceri">
        <attribute name="title">
         <string>Dispeceri</string>
        </attribute>
+       <widget class="QListWidget" name="lista_dispeceri">
+        <property name="geometry">
+         <rect>
+          <x>15</x>
+          <y>21</y>
+          <width>401</width>
+          <height>431</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="b_inf_disp">
+        <property name="geometry">
+         <rect>
+          <x>480</x>
+          <y>100</y>
+          <width>151</width>
+          <height>29</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: rgb(181, 191, 255)</string>
+        </property>
+        <property name="text">
+         <string>Informatii dispecer</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="b_stergere_disp">
+        <property name="geometry">
+         <rect>
+          <x>490</x>
+          <y>330</y>
+          <width>131</width>
+          <height>29</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: rgb(255, 161, 142)</string>
+        </property>
+        <property name="text">
+         <string>Sterge dispecer</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="b_add_disp">
+        <property name="geometry">
+         <rect>
+          <x>542</x>
+          <y>10</y>
+          <width>141</width>
+          <height>29</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:rgb(255, 230, 172)</string>
+        </property>
+        <property name="text">
+         <string>Adauga dispecer</string>
+        </property>
+       </widget>
       </widget>
       <widget class="QWidget" name="cereri_inregistrari">
        <attribute name="title">
         <string>Inregistrari</string>
        </attribute>
+       <widget class="QListWidget" name="lista_cereri_inrg">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>20</y>
+          <width>441</width>
+          <height>431</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="inf_inrg">
+        <property name="geometry">
+         <rect>
+          <x>540</x>
+          <y>48</y>
+          <width>93</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: rgb(181, 191, 255)</string>
+        </property>
+        <property name="text">
+         <string>Informatii
+inregistrare</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="aprob_inrg">
+        <property name="geometry">
+         <rect>
+          <x>540</x>
+          <y>260</y>
+          <width>93</width>
+          <height>29</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:rgb(165, 255, 165)</string>
+        </property>
+        <property name="text">
+         <string>Aproba</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="resping_inreg">
+        <property name="geometry">
+         <rect>
+          <x>540</x>
+          <y>320</y>
+          <width>93</width>
+          <height>29</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: rgb(255, 161, 142)</string>
+        </property>
+        <property name="text">
+         <string>Respinge</string>
+        </property>
+       </widget>
       </widget>
       <widget class="QWidget" name="cereri_stergeri">
        <attribute name="title">
         <string>Stergeri</string>
        </attribute>
+       <widget class="QListWidget" name="lista_cereri_st">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>401</width>
+          <height>431</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="aprob_strg">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>340</y>
+          <width>93</width>
+          <height>29</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:rgb(165, 255, 165)</string>
+        </property>
+        <property name="text">
+         <string>Aproba</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="resping_strg">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>390</y>
+          <width>93</width>
+          <height>29</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: rgb(255, 161, 142)</string>
+        </property>
+        <property name="text">
+         <string>Respinge</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="inf_strg">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>48</y>
+          <width>93</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: rgb(181, 191, 255)</string>
+        </property>
+        <property name="text">
+         <string>Informatii
+stergere</string>
+        </property>
+       </widget>
       </widget>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>10</y>
+        <width>101</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Administrator</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="delog_adm">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>10</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: red</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
      </widget>
     </widget>
    </widget>
@@ -1001,7 +1311,7 @@
      <x>0</x>
      <y>0</y>
      <width>700</width>
-     <height>26</height>
+     <height>22</height>
     </rect>
    </property>
   </widget>
