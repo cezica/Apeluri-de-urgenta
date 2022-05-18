@@ -1,0 +1,39 @@
+﻿  Reading Qt configuration (C:/Qt/6.3.0/msvc2019_64/bin/qmake)
+  Generate moc_predefs.h
+  Uic'ing addisp.ui...
+  Uic'ing apel.ui...
+  Uic'ing detaliiapel.ui...
+  Uic'ing detalii_suplimentare.ui...
+  Uic'ing primapag.ui...
+  Moc'ing addisp.h...
+  Moc'ing apel.h...
+  Moc'ing detalii_suplimentare.h...
+  Moc'ing detaliiapel.h...
+  Moc'ing primapag.h...
+  addisp.cpp
+  apel.cpp
+  cerereapel.cpp
+  cereredisp.cpp
+  cerereinreg.cpp
+  cerereistoricadm.cpp
+  cerereistoriccl.cpp
+  cerereistoricdisp.cpp
+  cererelog.cpp
+  CerereStergeri.cpp
+  cerereutilz.cpp
+  Conexiune.cpp
+  detaliiapel.cpp
+  detalii_suplimentare.cpp
+  icerere.cpp
+  main.cpp
+  primapag.cpp
+C:\Users\Cezica\Documents\Apeluri_urg\Conexiune.cpp(33,10): warning C4101: 'buffer': unreferenced local variable
+C:\Users\Cezica\Documents\Apeluri_urg\main.cpp(10,16): warning C4189: 'd': local variable is initialized but not referenced
+C:\Users\Cezica\Documents\Apeluri_urg\detaliiapel.cpp(43,10): warning C4189: 'played': local variable is initialized but not referenced
+  moc_addisp.cpp
+  moc_apel.cpp
+  moc_detalii_suplimentare.cpp
+  moc_detaliiapel.cpp
+  moc_primapag.cpp
+MSVCRTD.lib(initializers.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Apeluri_urg.vcxproj -> C:\Users\Cezica\Documents\Apeluri_urg\debug\Apeluri_urg.exe

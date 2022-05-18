@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/new/fis_audio">
+        <file>Fisere_audio/f1.mp3</file>
+        <file>Fisere_audio/f2.mp3</file>
+        <file>Fisere_audio/f3.mp3</file>
+    </qresource>
+</RCC>
