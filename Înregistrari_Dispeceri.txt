@@ -1,0 +1,4 @@
+username$parola$email$nume$prenume$tip$telefon$
+dispecer1$parola1$blabtralala_email@blabla.com$nume1$prennume1$Smurd$0000000001$
+dispecer2$parola2$lablatralala_email@blabla.com$nume2$prennume2$Politie$0000000002$
+dispecer3$parola$nume3$prennume3$blablablatralala_email@blabla.com$Pompieri$0000000003$

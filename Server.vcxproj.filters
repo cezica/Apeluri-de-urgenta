@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Fisiere">
+      <UniqueIdentifier>{4a5f762e-2109-456d-96fa-665191961454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Fisiere utilizatori">
+      <UniqueIdentifier>{a8ec9fb6-9515-47fe-9daf-efce70702a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Fisiere dispeceri">
+      <UniqueIdentifier>{dca15f03-d751-4d2d-b0c6-70534c97f4ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Protocoale">
+      <UniqueIdentifier>{14331f6b-6ba3-4723-86bd-9a695f7bdbb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tratare protocoale">
+      <UniqueIdentifier>{b2f624f3-3648-4d1a-8a12-8b12648d8742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Protocoale">
+      <UniqueIdentifier>{5abc59ea-c022-4638-be7f-8234ec2856a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tratare  protocoale">
+      <UniqueIdentifier>{8e5809ff-0961-4ae5-99aa-f35e1227a630}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Conexiune.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fisiere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol.cpp">
+      <Filter>Source Files\Protocoale</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol_Adauga_detalii_la_apel.cpp">
+      <Filter>Source Files\Protocoale</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol_Adauga_Dispecer.cpp">
+      <Filter>Source Files\Protocoale</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol_afisarea_utilizatorilor.cpp">
+      <Filter>Source Files\Protocoale</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol_aprobare_inregistrari.cpp">
+      <Filter>Source Files\Protocoale</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol_Inregistrare.cpp">
+      <Filter>Source Files\Protocoale</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol_Istoric_Apel.cpp">
+      <Filter>Source Files\Protocoale</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol_Istoric_Apel_Clienti.cpp">
+      <Filter>Source Files\Protocoale</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol_Istoric_apeluri.cpp">
+      <Filter>Source Files\Protocoale</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol_Istoric_Apeluri_Dispecer.cpp">
+      <Filter>Source Files\Protocoale</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol_Istoric_Dispecer_fara_detalii.cpp">
+      <Filter>Source Files\Protocoale</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol_Lista_Inregistrari_Asteptare.cpp">
+      <Filter>Source Files\Protocoale</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol_Logare.cpp">
+      <Filter>Source Files\Protocoale</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol_Respinge_Inregistrare.cpp">
+      <Filter>Source Files\Protocoale</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol_Respingere_Inregistrare.cpp">
+      <Filter>Source Files\Protocoale</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol_Sterge_Dispecer.cpp">
+      <Filter>Source Files\Protocoale</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol_Stergere_Utilizator.cpp">
+      <Filter>Source Files\Protocoale</Filter>
+    </ClCompile>
+    <ClCompile Include="Apel.cpp">
+      <Filter>Source Files\Tratare  protocoale</Filter>
+    </ClCompile>
+    <ClCompile Include="Înregistrare.cpp">
+      <Filter>Source Files\Tratare  protocoale</Filter>
+    </ClCompile>
+    <ClCompile Include="ÎnregistrareDispecer.cpp">
+      <Filter>Source Files\Tratare  protocoale</Filter>
+    </ClCompile>
+    <ClCompile Include="Logare.cpp">
+      <Filter>Source Files\Tratare  protocoale</Filter>
+    </ClCompile>
+    <ClCompile Include="Istoric_Apel.cpp">
+      <Filter>Source Files\Tratare  protocoale</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Conexiune.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fisiere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.h">
+      <Filter>Header Files\Protocoale</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol_Inregistrare.h">
+      <Filter>Header Files\Protocoale</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol_Istoric_Apel.h">
+      <Filter>Header Files\Protocoale</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol_Logare.h">
+      <Filter>Header Files\Protocoale</Filter>
+    </ClInclude>
+    <ClInclude Include="Înregistrare.h">
+      <Filter>Header Files\Tratare protocoale</Filter>
+    </ClInclude>
+    <ClInclude Include="ÎnregistrareDispecer.h">
+      <Filter>Header Files\Tratare protocoale</Filter>
+    </ClInclude>
+    <ClInclude Include="IProtocol.h">
+      <Filter>Header Files\Protocoale</Filter>
+    </ClInclude>
+    <ClInclude Include="Apel.h">
+      <Filter>Header Files\Tratare protocoale</Filter>
+    </ClInclude>
+    <ClInclude Include="Istoric_Apel.h">
+      <Filter>Header Files\Tratare protocoale</Filter>
+    </ClInclude>
+    <ClInclude Include="Logare.h">
+      <Filter>Header Files\Tratare protocoale</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol_Istoric_Apel_Clienti.h">
+      <Filter>Header Files\Protocoale</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol_Istoric_Dispecer_fara_detalii.h">
+      <Filter>Header Files\Protocoale</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol_Adauga_detalii_la_apel.h">
+      <Filter>Header Files\Protocoale</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol_Istoric_Apeluri_Dispecer.h">
+      <Filter>Header Files\Protocoale</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol_afisarea_utilizatorilor.h">
+      <Filter>Header Files\Protocoale</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol_Adauga_Dispecer.h">
+      <Filter>Header Files\Protocoale</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol_Istoric_apeluri.h">
+      <Filter>Header Files\Protocoale</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol_Sterge_Dispecer.h">
+      <Filter>Header Files\Protocoale</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol_Lista_Inregistrari_Asteptare.h">
+      <Filter>Header Files\Protocoale</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol_Respinge_Inregistrare.h">
+      <Filter>Header Files\Protocoale</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol_aprobare_inregistrari.h">
+      <Filter>Header Files\Protocoale</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol_Stergere_Utilizator.h">
+      <Filter>Header Files\Protocoale</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol_Respingere_Inregistrare.h">
+      <Filter>Header Files\Protocoale</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Username+parola.txt">
+      <Filter>Resource Files\Fisiere</Filter>
+    </Text>
+    <Text Include="Înregistrari_Utilizatori.txt">
+      <Filter>Resource Files\Fisiere</Filter>
+    </Text>
+    <Text Include="Istoric apeluri.txt">
+      <Filter>Resource Files\Fisiere</Filter>
+    </Text>
+    <Text Include="ana_otilia.txt">
+      <Filter>Resource Files\Fisiere utilizatori</Filter>
+    </Text>
+    <Text Include="Înregistrari_Dispeceri.txt">
+      <Filter>Resource Files\Fisiere</Filter>
+    </Text>
+    <Text Include="elena123.txt">
+      <Filter>Resource Files\Fisiere utilizatori</Filter>
+    </Text>
+    <Text Include="dispecer2.txt">
+      <Filter>Resource Files\Fisiere dispeceri</Filter>
+    </Text>
+    <Text Include="dispecer1.txt">
+      <Filter>Resource Files\Fisiere dispeceri</Filter>
+    </Text>
+    <Text Include="Lista in astepare inregistari.txt">
+      <Filter>Resource Files\Fisiere</Filter>
+    </Text>
+    <Text Include="Apeluri in asteptare.txt">
+      <Filter>Resource Files\Fisiere</Filter>
+    </Text>
+    <Text Include="utilizator1.txt">
+      <Filter>Resource Files\Fisiere utilizatori</Filter>
+    </Text>
+    <Text Include="utilizator2.txt">
+      <Filter>Resource Files\Fisiere utilizatori</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
