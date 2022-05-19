@@ -1,7 +1,7 @@
 #pragma once
 #include "Protocol.h"
 #include "Istoric_Apel.h"
-class Protocol_Istoric_Apel_Clienti :
+class Protocol_Istoric_Dispecer_fara_detalii :
     public Protocol
 {
 private:
@@ -11,7 +11,7 @@ public:
     string obtine_raspuns();
     int obtine_eroare();
 
-    Protocol_Istoric_Apel_Clienti(string username);
-    ~Protocol_Istoric_Apel_Clienti();
+    Protocol_Istoric_Dispecer_fara_detalii(string username);
+    ~Protocol_Istoric_Dispecer_fara_detalii();
 };
 

@@ -1,18 +1,18 @@
 #pragma once
 #include "Protocol.h"
-#include "Logare.h"
+#include "Istoric_Apel.h"
 
-class Protocol_Logare :
+class Protocol_Istoric_apeluri :
     public Protocol
 {
 private:
-    Logare* L;
+    Istoric_Apel* IA;
 public:
     void rezultat();
     string obtine_raspuns();
-
     int obtine_eroare();
 
-    Protocol_Logare(string username, string parola);
-    ~Protocol_Logare();
+    Protocol_Istoric_apeluri();
+    ~Protocol_Istoric_apeluri();
 };
+

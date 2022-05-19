@@ -13,10 +13,6 @@ public:
 	string getErrorMessage();
 	int getErrorCode();
 
-	Exceptie(int errorCode)
-	{
-		this->code = errorCode;
-		chooseError();
-	}
+	Exceptie(int errorCode);
 	virtual ~Exceptie() {}
 };

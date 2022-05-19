@@ -7,8 +7,8 @@ protected:
     string raspuns;
     int eroare = 0;
 public:
-    int get_eroare() override { return eroare; };
-    bool rezultat() override {};
-    string get_raspuns() override {};
+   virtual int obtine_eroare() = 0;
+   virtual void rezultat() = 0;
+   virtual string obtine_raspuns() = 0;
 };
 

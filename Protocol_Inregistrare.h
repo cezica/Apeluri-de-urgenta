@@ -7,20 +7,11 @@ class Protocol_Inregistrare :
 private:
     Înregistrare* I;
 public:
-    bool rezultat() {
-        this->raspuns = I->obtine_rezultat();
-    }
-    string get_raspuns() {
-        return this->raspuns;
-    }
+    void rezultat();
+    string obtine_raspuns();
+    int obtine_eroare();
 
-    int get_eroare() { return this->eroare; };
-
-    Protocol_Inregistrare(string username, string parola, string nume, string prenume, string email, string nr_telefon) {
-        I = new Înregistrare(username, parola, nume, prenume, email, nr_telefon);
-    }
-    ~Protocol_Inregistrare() {
-        delete I;
-    }
+    Protocol_Inregistrare(string username, string parola, string nume, string prenume, string email, string nr_telefon);
+    ~Protocol_Inregistrare();
 };
 
