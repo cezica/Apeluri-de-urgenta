@@ -73,3 +73,16 @@ string Apel::obtine_rezultat()
 {
 	return rezultat;
 }
+
+//Apel& Apel:: operator =(const Apel& A1)
+//{
+//	this->nume_client = A1.nume_client;
+//	this->nume_dispecer=A1.nume_dispecer;
+//	this->date_inceput_apel = A1.date_inceput_apel;
+//	this->date_sfarsit_apel = A1.date_sfarsit_apel;
+//	this->nume_fisier= A1.nume_fisier;
+//	this->detalii = A1.detalii;
+//	this->rezultat = A1.rezultat;
+//
+//	return *this;
+//}

@@ -1,4 +1,5 @@
 #include "Înregistrare.h"
+#include"Exceptie.h"
 
 bool Înregistrare::acelasi_username() //verific daca se repeta usernamul
 {
@@ -6,11 +7,11 @@ bool Înregistrare::acelasi_username() //verific daca se repeta usernamul
     vector<int> indecsi = F->select_Inregistrare("username", username);
     for (int i = 0; i < indecsi.size(); i++)
     {
-        if (F->intoarce_inregistrare(indecsi[i])[1] == username)
+        if (F->intoarce_inregistrare(indecsi[i])[0] == username)
         {
             delete F;
-            cout << "Username existent!" << endl;
-            return true;
+            throw new Exceptie(3);
+
         }
     }
     delete F;
@@ -24,11 +25,10 @@ bool Înregistrare::acelasi_individ() //verific nr de telefon
     vector<int> indecsi = F->select_Inregistrare("telefon", numar_telefon);
     for (int i = 0; i < indecsi.size(); i++)
     {
-        if (F->intoarce_inregistrare(indecsi[i])[6] == numar_telefon)
+        if (F->intoarce_inregistrare(indecsi[i])[5] == numar_telefon)
         {
             delete F;
-            cout << "Exista deja cont cu acest numar de telefon!" << endl;
-            return true;
+            throw new Exceptie(4);
         }
     }
     delete F;

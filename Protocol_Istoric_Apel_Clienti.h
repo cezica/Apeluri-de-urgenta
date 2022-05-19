@@ -4,23 +4,14 @@
 class Protocol_Istoric_Apel_Clienti :
     public Protocol
 {
+private:
     Istoric_Apel* IA;
 public:
-    bool rezultat() {
-        this->raspuns = IA->obtine_rezultat();
-    }
-    string get_raspuns() {
-        return this->raspuns;
-    }
+    void rezultat();
+    string obtine_raspuns();
+    int obtine_eroare();
 
-    int get_eroare() { return this->eroare; };
-
-    Protocol_Istoric_Apel_Clienti(string username) {
-        IA = new Istoric_Apel();
-        IA->istoric_apeluri_client(username);
-    }
-    ~Protocol_Istoric_Apel_Clienti() {
-        delete IA;
-    }
+    Protocol_Istoric_Apel_Clienti(string username);
+    ~Protocol_Istoric_Apel_Clienti();
 };
 

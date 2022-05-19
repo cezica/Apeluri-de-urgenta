@@ -1,6 +1,7 @@
 #pragma once
 #include "iExceptie.h"
-class Exceptie : public IExceptie
+
+class Exceptie : public iExceptie
 {
 private:
 	int code;
@@ -20,3 +21,4 @@ public:
 	}
 	virtual ~Exceptie() {}
 };
+

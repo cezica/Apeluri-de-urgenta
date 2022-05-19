@@ -1,5 +1,6 @@
 #include "Istoric_Apel.h"
 #include<string>
+#include"Exceptie.h"
 
 void Istoric_Apel::citeste_istoric()
 {
@@ -56,8 +57,8 @@ void Istoric_Apel::istoric_apeluri_admin()
 {
     
     citeste_istoric();
-    for(int i=0;i<Apeluri.size();i++)
-        rezultat = rezultat + Apeluri[i].obtine_nume_client() + '$'+ Apeluri[i].obtine_nume_dispecer() + '$' + Apeluri[i].obtine_nume_fisier() + '$'+'*';
+    for(int i=1;i<Apeluri.size();i++)
+        rezultat = rezultat + Apeluri[i].obtine_nume_client() + '$'+ Apeluri[i].obtine_nume_dispecer() + '$' + Apeluri[i].obtine_nume_fisier() + '$'+'\n';
 }
 
 void Istoric_Apel::istoric_apeluri_client(string username)
@@ -68,9 +69,11 @@ void Istoric_Apel::istoric_apeluri_client(string username)
     else
     { 
         vector < vector<string>> date = F->obtine_date();
-        if(date.size()>0)
-        for (int i = 0; i < date.size(); i++)
-            rezultat = rezultat + date[i][0] + '$' + date[i][1] + '$' + date[i][2] + '$' + '*';
+        if (date.size() > 0)
+            for (int i = 0; i < date.size(); i++)
+                rezultat = rezultat + date[i][0] + '$' + date[i][1] + '$' + date[i][2] + '$' + '\n';
+        else
+            throw new Exceptie(2);
     }
     delete F;
 
@@ -84,9 +87,12 @@ void Istoric_Apel::istoric_apeluri_dispecer(string dispecer)
     else
     {
         vector < vector<string>> date = F->obtine_date();
+
         if (date.size() > 0)
             for (int i = 0; i < date.size(); i++)
-                rezultat = rezultat + date[i][0] + '$' + date[i][1] + '$' + '*';
+                rezultat = rezultat + date[i][0] + '$' + date[i][1] + '$' + '\n';
+        else
+            throw new Exceptie(2);
     }
     delete F;
 }
@@ -100,9 +106,15 @@ void Istoric_Apel::istoric_apeluri_dispecer_cu_detalii(string dispecer)
     {
         vector < vector<string>> date = F->obtine_date();
         if (date.size() > 0)
+        {
             for (int i = 0; i < date.size(); i++)
-                if(date[i][1]==dispecer)
-                rezultat = rezultat + date[i][0] + '$' + date[i][2]+ ' ' + date[i][3]+'$' + date[i][5]+'$'+date[i][4]+'$'+'*';
+                if (date[i][1] == dispecer)
+                    rezultat = rezultat + date[i][0] + '$' + date[i][2] + ' ' + date[i][3] + '$' + date[i][5] + '$' + date[i][4] + '$' + '\n';
+         }      
+        else
+           throw new Exceptie(2);
+        
+
     }
     delete F;
 }
@@ -114,7 +126,10 @@ void Istoric_Apel::istoric_apeluri_pt_dispecer()
     vector < vector<string>> date = F->obtine_date();
     if (date.size() > 0)
         for (int i = 0; i < date.size(); i++)
-            rezultat = rezultat + date[i][0] + '$' + date[i][2] + '$' + date[i][3]+'$'+date[i][4]+'$'+'*';
+            rezultat = rezultat + date[i][0] + '$' + date[i][2] + '$' + date[i][3]+'$'+date[i][4]+'$'+'\n';
+    else
+        throw new Exceptie(2);
+
  
     delete F;
 }
@@ -176,8 +191,11 @@ void Istoric_Apel::istoric_inregistrari()
 
     vector<vector<string>> date = F->obtine_date();
     if (date.size() > 0)
-        for (int i = 0; i < date.size(); i++)
-            rezultat = rezultat + date[i][0] + '$' + date[i][4] + '$' + date[i][2] + '$' + date[i][3] + '$' + date[i][5] + '$' + '*';
+        for (int i = 1; i < date.size(); i++)
+            rezultat = rezultat + date[i][0] + '$' + date[i][4] + '$' + date[i][2] + '$' + date[i][3] + '$' + date[i][5] + '$' + '\n';
+    else
+        throw new Exceptie(2);
+
 
     delete F;
 }

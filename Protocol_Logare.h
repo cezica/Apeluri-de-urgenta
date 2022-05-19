@@ -8,20 +8,11 @@ class Protocol_Logare :
 private:
     Logare* L;
 public:
-    bool rezultat() {
-        this->raspuns = L->obtine_rezultat();
-    }
-    string get_raspuns() {
-        return this->raspuns;
-    }
+    void rezultat();
+    string obtine_raspuns();
 
-    int get_eroare() { return this->eroare; };
+    int obtine_eroare();
 
-    Protocol_Logare(string username, string parola) {
-        L = new Logare(username, parola);
-    }
-    ~Protocol_Logare() {
-        delete L;
-    }
+    Protocol_Logare(string username, string parola);
+    ~Protocol_Logare();
 };
-

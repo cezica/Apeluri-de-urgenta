@@ -6,7 +6,7 @@ bool Logare::date_corecte()
     vector<int> indecsi=F->select_Inregistrare("username", username);
     for (int i = 0; i < indecsi.size(); i++)
     {
-        if (F->intoarce_inregistrare(indecsi[i])[2] == parola)
+        if (F->intoarce_inregistrare(indecsi[i])[1] == parola)
             delete F;
             return true;
     }

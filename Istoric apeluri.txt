@@ -2,4 +2,3 @@ username_client$nume_dispecer$data+timp inceput apel$data+timp sfarsit apel$fisi
 elena123$dispecer1$9.05.2022 18:22:08$9.05.2022 18:23:00$fisier1$fara detalii$
 ana_otilia$dispecer1$10.05.2022 7:12:22$10.05.2022 7:35:10$fisier4$fara detalii$
 elena123$dispecer1$11.05.2022 5:12:08$11.05.2022 5:17:01$fisier3$fara detalii$
-elena123$dispecer1$10.05.2022 18:22:08$10.05.2022 18:23:00$fisier1$

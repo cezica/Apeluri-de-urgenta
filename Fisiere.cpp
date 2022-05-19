@@ -1,6 +1,7 @@
 #include "Fisiere.h"
 #include <string>
 #include <filesystem>
+#include"Exceptie.h"
 
 vector<string> Fisiere::parseaza_linie(string linie)
 {
@@ -82,14 +83,14 @@ void Fisiere::update_Inregistrare(string id, string coloana, string text)
 vector<int> Fisiere::select_Inregistrare(string coloana, string text)
 {
 	vector<int> index;
-	for (int i = 0; i < date.size(); i++)
+	int numar_coloana = 0;
+	for (int i = 0; i < date[0].size(); i++)
 		if (date[0][i] == coloana)
-		{
-			for (int j = 1; j < date.size(); j++)
-				if (date[j][i] == text)
-					index.push_back(j);
-			break;
-		}
+			numar_coloana = i;
+
+	for (int j = 1; j < date.size(); j++)
+		if (date[j][numar_coloana] == text)
+			index.push_back(j);
 	return index;
 }
 
@@ -107,7 +108,7 @@ Fisiere::Fisiere(string numeFisier)
 	{
 		update = false;
 		exista = false;
-		return;	
+		return;
 	}
 	while (!fisier.eof())
 	{
@@ -121,6 +122,8 @@ Fisiere::Fisiere(string numeFisier, bool create)
 {
 	this->update = false;
 	fisier.open(numeFisier, ios::app);
+	if (!fisier.is_open())
+		throw new Exceptie(5);
 	fisier.close();
 }
 

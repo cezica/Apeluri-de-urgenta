@@ -28,7 +28,7 @@ public:
 		this->prenume = prenume;
 		this->email = email;
 		this->numar_telefon = nr_telefon;
-		if (acelasi_individ() && acelasi_username())
+		if (acelasi_individ() || acelasi_username())
 			rezultat = "x";
 		else
 		{

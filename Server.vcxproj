@@ -177,6 +177,23 @@ sfml-network.lib</AdditionalDependencies>
     <ClCompile Include="Fisiere.cpp" />
     <ClCompile Include="Istoric_Apel.cpp" />
     <ClCompile Include="Logare.cpp" />
+    <ClCompile Include="Protocol.cpp" />
+    <ClCompile Include="Protocol_Adauga_detalii_la_apel.cpp" />
+    <ClCompile Include="Protocol_Adauga_Dispecer.cpp" />
+    <ClCompile Include="Protocol_afisarea_utilizatorilor.cpp" />
+    <ClCompile Include="Protocol_aprobare_inregistrari.cpp" />
+    <ClCompile Include="Protocol_Inregistrare.cpp" />
+    <ClCompile Include="Protocol_Istoric_Apel.cpp" />
+    <ClCompile Include="Protocol_Istoric_apeluri.cpp" />
+    <ClCompile Include="Protocol_Istoric_Apeluri_Dispecer.cpp" />
+    <ClCompile Include="Protocol_Istoric_Apel_Clienti.cpp" />
+    <ClCompile Include="Protocol_Istoric_Dispecer_fara_detalii.cpp" />
+    <ClCompile Include="Protocol_Lista_Inregistrari_Asteptare.cpp" />
+    <ClCompile Include="Protocol_Logare.cpp" />
+    <ClCompile Include="Protocol_Respingere_Inregistrare.cpp" />
+    <ClCompile Include="Protocol_Respinge_Inregistrare.cpp" />
+    <ClCompile Include="Protocol_Stergere_Utilizator.cpp" />
+    <ClCompile Include="Protocol_Sterge_Dispecer.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Înregistrare.cpp" />
     <ClCompile Include="ÎnregistrareDispecer.cpp" />
@@ -186,9 +203,27 @@ sfml-network.lib</AdditionalDependencies>
     <ClInclude Include="Conexiune.h" />
     <ClInclude Include="Exceptie.h" />
     <ClInclude Include="Fisiere.h" />
-    <ClInclude Include="IExceptie.h" />
+    <ClInclude Include="iExceptie.h" />
+    <ClInclude Include="IProtocol.h" />
     <ClInclude Include="Istoric_Apel.h" />
     <ClInclude Include="Logare.h" />
+    <ClInclude Include="Protocol.h" />
+    <ClInclude Include="Protocol_Adauga_detalii_la_apel.h" />
+    <ClInclude Include="Protocol_Adauga_Dispecer.h" />
+    <ClInclude Include="Protocol_afisarea_utilizatorilor.h" />
+    <ClInclude Include="Protocol_aprobare_inregistrari.h" />
+    <ClInclude Include="Protocol_Inregistrare.h" />
+    <ClInclude Include="Protocol_Istoric_Apel.h" />
+    <ClInclude Include="Protocol_Istoric_apeluri.h" />
+    <ClInclude Include="Protocol_Istoric_Apeluri_Dispecer.h" />
+    <ClInclude Include="Protocol_Istoric_Apel_Clienti.h" />
+    <ClInclude Include="Protocol_Istoric_Dispecer_fara_detalii.h" />
+    <ClInclude Include="Protocol_Lista_Inregistrari_Asteptare.h" />
+    <ClInclude Include="Protocol_Logare.h" />
+    <ClInclude Include="Protocol_Respingere_Inregistrare.h" />
+    <ClInclude Include="Protocol_Respinge_Inregistrare.h" />
+    <ClInclude Include="Protocol_Stergere_Utilizator.h" />
+    <ClInclude Include="Protocol_Sterge_Dispecer.h" />
     <ClInclude Include="Înregistrare.h" />
     <ClInclude Include="ÎnregistrareDispecer.h" />
   </ItemGroup>
@@ -197,13 +232,17 @@ sfml-network.lib</AdditionalDependencies>
     <Text Include="Apeluri in asteptare.txt" />
     <Text Include="dispecer1.txt" />
     <Text Include="dispecer2.txt" />
-    <Text Include="dispecer3.txt" />
     <Text Include="Lista in astepare inregistari.txt" />
+    <Text Include="utilizator1.txt" />
+    <Text Include="utilizator2.txt" />
     <Text Include="Înregistrari_Dispeceri.txt" />
     <Text Include="elena123.txt" />
     <Text Include="Istoric apeluri.txt" />
-    <Text Include="Username+parola.txt.txt" />
+    <Text Include="Username+parola.txt" />
     <Text Include="Înregistrari_Utilizatori.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

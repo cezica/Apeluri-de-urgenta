@@ -31,6 +31,8 @@ public:
 	string obtine_date_sfarsit_apel();
 	string obtine_nume_fisier();
 	string obtine_detalii();
+
+	//Apel& operator = (const Apel& A1);
 	
 	Apel() {};
 	Apel(string nume_client, string nume_dispecer, string date_inceput_apel, string date_sfarsit_apel, string nume_fisier) 
